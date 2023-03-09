@@ -1,0 +1,46 @@
+[
+    {
+      "categoryname": "knife",
+      "location": "Dhaka",
+      "used": "1.5 years",
+      "picture": "https://t4.ftcdn.net/jpg/03/86/71/31/360_F_386713138_YsCBGKD55qIeaxtYRP4NzAJqvKwQ7CjV.jpg",
+      "sellPrice": 299,
+      "originalPrice": 449,
+      "productName": "Lion state Knife",
+      "sellerName": "md rasel mia",
+      "postDate": "21-11-2022"
+    },
+    {
+      "categoryname": "pistol",
+      "location": "Rajshahi",
+      "used": "1.5 years",
+      "picture": "https://www.shutterstock.com/image-photo/beautiful-revolver-isolated-260nw-370306163.jpg",
+      "sellPrice": 199,
+      "originalPrice": 409,
+      "productName": "180 245 knife",
+      "sellerName": "rasel mia",
+      "postDate": "22-11-2022"
+    },
+    {
+      "categoryname": "sniper",
+      "location": "Narayanganj",
+      "used": "1.5 years",
+      "picture": "https://preview.free3d.com/img/2020/11/2454709478403081860/gl7nihuq.jpg",
+      "sellPrice": 599,
+      "originalPrice": 949,
+      "productName": "Mauser Karabiner 98 Kurz Sniper",
+      "sellerName": "md khan",
+      "postDate": "21-11-2022"
+    },
+    {
+      "categoryname": "shortgun",
+      "location": "Mirpur",
+      "used": "3.5 years",
+      "picture": "https://i.pinimg.com/originals/fa/7a/b3/fa7ab3f483eb1be0053ec56d03689bb0.jpg",
+      "sellPrice": 199,
+      "originalPrice": 349,
+      "productName": "Flintlock",
+      "sellerName": "md rasel mia",
+      "postDate": "21-11-2022"
+    }
+]
