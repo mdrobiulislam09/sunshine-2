@@ -32,7 +32,7 @@ const BookingModal = ({ phone, date, setPhone}) => {
         alert('This product added in Dashbord')
         setPhone(null)
         
-        fetch('http://localhost:5000/bookings', {
+        fetch('https://sunshine-2-server.vercel.app//bookings', {
             method: 'POST',
             headers: {
                 'content-type':'application/json',

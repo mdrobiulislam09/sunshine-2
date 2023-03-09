@@ -34,7 +34,7 @@ function App() {
             {
               path: '/product/:categoryname',
               element: <Product></Product>,
-              loader: ({ params }) => fetch(`http://localhost:5000/product/${params.categoryname}`)
+              loader: ({ params }) => fetch(`https://sunshine-2-server.vercel.app//product/${params.categoryname}`)
             }
           ]
         },
@@ -69,7 +69,7 @@ function App() {
           {
               path: '/dashbord/payment/:id',
               element: <Payment></Payment>,
-              loader: ({ params }) => fetch(`http://localhost:5000/bookings/${params.id}`)
+              loader: ({ params }) => fetch(`https://sunshine-2-server.vercel.app//bookings/${params.id}`)
           }
           ]
         }

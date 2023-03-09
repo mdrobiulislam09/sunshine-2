@@ -2,7 +2,7 @@ import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import React, { useEffect, useState } from 'react';
 
 const CheckoutForm = ({ booking }) => {
-    const { price, email, buyerName, _id} = booking;
+    const { price, email, buyerName, _id } = booking;
 
     const [clientSecret, setClientSecret] = useState("");
 
@@ -16,7 +16,7 @@ const CheckoutForm = ({ booking }) => {
 
     useEffect(() => {
         // Create PaymentIntent as soon as the page loads
-        fetch('http://localhost:5000/create-payment-intent', {
+        fetch('https://sunshine-2-server.vercel.app/create-payment-intent', {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ price }),
@@ -85,7 +85,7 @@ const CheckoutForm = ({ booking }) => {
 
             }
 
-            fetch('http://localhost:5000/payments', {
+            fetch('https://sunshine-2-server.vercel.app/payments', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',

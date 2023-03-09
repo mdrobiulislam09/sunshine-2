@@ -6,7 +6,7 @@ import './MyOrder.css'
 const MyOrder = () => {
     const {user} = useContext(AuthContext)
 
-    const url = `http://localhost:5000/bookings?email=${user?.email}`
+    const url = `https://sunshine-2-server.vercel.app//bookings?email=${user?.email}`
 
     const [orders, setOrders] = useState([]);
 
@@ -22,7 +22,7 @@ const MyOrder = () => {
     const handleDelete = id => {
         const procced = window.confirm('Are you sure want to delete this product')
         if(procced){
-            fetch(`http://localhost:5000/bookings/${id}`, {
+            fetch(`https://sunshine-2-server.vercel.app//bookings/${id}`, {
                 method: 'DELETE',
             })
             .then(res => res.json())
